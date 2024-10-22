@@ -1,0 +1,6 @@
+{
+    "name": "optimization",
+    "version": "0.5.0",
+    "description": "modulo basico para a otimização de scripts javascript front-end",
+    "main": "./src/index.js"
+}
