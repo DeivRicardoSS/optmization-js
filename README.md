@@ -1,6 +1,17 @@
 # optmization-js
 modulo para otimizar códigos front end em javascript
 
+## Importação
+### index.html
+```
+    <script type="module" src="main.js"></script>
+```
+### main.js
+```
+    import opt from 'optmization/index.js';
+    const { getDOM, getDOMValue, setData, getData } = opt;
+```
+
 ## DOM
 ### getDOM
 ```
