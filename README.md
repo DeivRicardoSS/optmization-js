@@ -55,7 +55,7 @@ modulo para otimizar códigos front end em javascript
 ## Events
 ### Click
 ```
-    addClick('button', ()=>{
+    on('click', 'button', ()=>{
         alert("Hello World");
-    })
+    });
 ```

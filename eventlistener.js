@@ -1,5 +1,5 @@
-export function addClick(query, callback) {
+export function on(action, query, callback) {
     document.querySelectorAll(query).forEach(element => {
-        element.addEventListener('click', callback);
+        element.addEventListener(action, callback);
     });
 }
