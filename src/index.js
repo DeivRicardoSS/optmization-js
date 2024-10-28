@@ -1,5 +1,5 @@
 import { getDOM, getDOMAll, getDOMValue } from "./dom.js";
-import { getData, setData } from "./localdata.js";
+import { getData, setData, updateData } from "./localdata.js";
 import { on } from "./eventlistener.js";
 
 const optmize = {
@@ -10,6 +10,7 @@ const optmize = {
     //Manipulação de dados localstorage
     getData, 
     setData,
+    updateData,
     //Manipulação de eventos
     on
 }
