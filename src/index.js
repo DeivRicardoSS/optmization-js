@@ -1,6 +1,6 @@
 import { getDOM, getDOMAll, getDOMValue } from "./dom.js";
 import { getData, setData } from "./localdata.js";
-import { addClick } from "./eventlistener.js";
+import { on } from "./eventlistener.js";
 
 const optmize = {
     //Manipulação do DOM
@@ -11,7 +11,7 @@ const optmize = {
     getData, 
     setData,
     //Manipulação de eventos
-    addClick
+    on
 }
 
 export default optmize;
