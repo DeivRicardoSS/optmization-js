@@ -52,8 +52,13 @@ modulo para otimizar códigos front end em javascript
     let data = getData('player');
 ```
 
+### updateData
+```
+    updateData('usuario', 'nome', 'Roberto');
+```
+
 ## Events
-### Click
+### on
 ```
     on('click', 'button', ()=>{
         alert("Hello World");
