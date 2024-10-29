@@ -54,6 +54,11 @@ modulo para otimizar códigos front end em javascript
 
 ### updateData
 ```
+    setData('usuario', {
+        nome: 'Alfredo',
+        idade: 20
+    });
+
     updateData('usuario', 'nome', 'Roberto');
 ```
 
