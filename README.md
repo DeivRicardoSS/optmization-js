@@ -1,15 +1,20 @@
 # optmization-js
 modulo para otimizar códigos front end em javascript
 
-## Importação
+## Importação op1
 ### index.html
 ```
     <script type="module" src="main.js"></script>
 ```
 ### main.js
 ```
-    import opt from 'optmization/index.js';
+    import opt from 'https://deivricardoss.github.io/optmization-js/src/index.js';
     const { getDOM, getDOMValue, setData, getData } = opt;
+```
+
+## Importação op2
+```
+    <script src="https://deivricardoss.github.io/optmization-js/src/index.js"></script>
 ```
 
 ## DOM
